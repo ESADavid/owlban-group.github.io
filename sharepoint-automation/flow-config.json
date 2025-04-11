@@ -1,0 +1,20 @@
+{
+    "WorkflowName": "Document Approval",
+    "Approvers": ["approver1@domain.com", "approver2@domain.com"],
+    "Stages": [
+        {
+            "Name": "Initial Review",
+            "Approvers": ["reviewer@domain.com"],
+            "TimeoutDays": 3
+        },
+        {
+            "Name": "Final Approval",
+            "Approvers": ["manager@domain.com"],
+            "TimeoutDays": 5
+        }
+    ],
+    "NotificationSettings": {
+        "ReminderFrequency": "Daily",
+        "EscalationRecipients": ["admin@domain.com"]
+    }
+}

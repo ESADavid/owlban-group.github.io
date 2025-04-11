@@ -1,0 +1,9 @@
+{
+    "SiteUrl": "https://yourtenant.sharepoint.com/sites/yoursite",
+    "LibraryName": "Documents",
+    "Approvers": [
+        "user1@domain.com",
+        "user2@domain.com"
+    ],
+    "LogPath": "./approval-setup.log"
+}

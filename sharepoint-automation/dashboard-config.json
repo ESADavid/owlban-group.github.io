@@ -1,0 +1,26 @@
+{
+    "SiteUrl": "https://owlban.sharepoint.com/sites/internaldashboard",
+    "Components": [
+        {
+            "Type": "ActivityFeed",
+            "Section": 1,
+            "Column": 1,
+            "RefreshInterval": 60
+        },
+        {
+            "Type": "DocumentApproval", 
+            "Section": 1,
+            "Column": 2,
+            "Libraries": ["Documents", "Contracts"]
+        },
+        {
+            "Type": "ServiceHealth",
+            "Section": 2,
+            "Column": 1
+        }
+    ],
+    "Permissions": {
+        "Admins": ["group:it-admins@owlban.com"],
+        "Users": ["group:all-staff@owlban.com"]
+    }
+}
