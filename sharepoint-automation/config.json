@@ -1,9 +1,7 @@
 {
-    "SiteUrl": "https://yourtenant.sharepoint.com/sites/yoursite",
-    "LibraryName": "Documents",
-    "Approvers": [
-        "user1@domain.com",
-        "user2@domain.com"
-    ],
-    "LogPath": "./approval-setup.log"
+  "SiteUrl": "https://yourtenant.sharepoint.com/sites/OWLBAN-LAN",
+  "LibraryName": "Documents",
+  "LocalFolderPath": "C:/Users/David L/OneDrive/Documents/GitHub/Organational-Leadership-Telehealth/Four-Era-AI",
+  "DashboardFile": "M365-Dashboard.html",
+  "DashboardFilePath": "C:/Users/David L/OneDrive/Documents/GitHub/Organational-Leadership-Telehealth/Four-Era-AI/M365-Dashboard.html"
 }

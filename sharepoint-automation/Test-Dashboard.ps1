@@ -29,7 +29,7 @@ if ($refreshJobs.Count -eq 0) {
 # Generate test report
 $testResults = @{
     Components = $components.Count
-    Permissions = $checkPermission -ne $null
+    Permissions = $null -ne $checkPermission
     RefreshJobs = $refreshJobs.Count
     LastTest = (Get-Date).ToString()
 }
